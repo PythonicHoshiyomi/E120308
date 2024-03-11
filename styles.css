@@ -1,6 +1,46 @@
+@font-face {
+    font-family: "Allenia";
+    src: url(assets/Allenia.ttf);
+}
+
+header {
+    font-family: "Allenia";
+    text-align: center;
+}
+
 .card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-family: "Libre Baskerville", serif;
   transition: 0.3s;
-  padding: 2px
+  padding: 16px;
+  margin: 25px;
+  border-radius: 10px;
+  background-color: white;
 }
+
+.ribbon {
+    width: 45px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 4px;
+    position: absolute;
+    text-align: center;
+    border-radius: 25px;
+    transform: rotate(30deg);
+    right: 5px;
+    background-color: #F28585;
+    top: 80px;
+    color: white;
+}
+
+.gift img{
+    width: 100%;
+    height: auto;
+}
+
+html {
+    background: #F2E8DF;
+}
+
