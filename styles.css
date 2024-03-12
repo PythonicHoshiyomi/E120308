@@ -13,6 +13,8 @@ header {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   font-family: "Libre Baskerville", serif;
+  text-align: justify;
+  font-size: small;
   transition: 0.3s;
   padding: 16px;
   margin: 25px;
@@ -39,6 +41,10 @@ header {
 .gift img{
     width: 100%;
     height: auto;
+}
+
+.initial {
+    font-size: x-large;
 }
 
 html {
